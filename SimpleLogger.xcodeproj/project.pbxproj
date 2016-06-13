@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4E479BACF22AFE5286E714 /* SimpleLogger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E43CD34C213430735C2A2 /* SimpleLogger.cc */; };
+		5C4E47C0FB5F6F4A231C9F21 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E453BF73EB767F31FDAB4 /* main.cpp */; };
+		5C4E4835CBA5474B680E6A90 /* SimpleLogStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E47E82FBDAFEB6CF92320 /* SimpleLogStream.cpp */; };
+		5C4E4A9FB681D815CB7CDFE0 /* mytest.h in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E48E0E6CE4AE1D0ED465B /* mytest.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C4E439B7CA96704CF7A6D4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C4E4064624239134914E667 /* SimpleBlockQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleBlockQueue.h; path = include/SimpleBlockQueue.h; sourceTree = "<group>"; };
+		5C4E40E4694A7899F2EB9044 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		5C4E41ABDB451C27D9704E88 /* SimpleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleLogger.h; path = include/SimpleLogger.h; sourceTree = "<group>"; };
+		5C4E43CD34C213430735C2A2 /* SimpleLogger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleLogger.cc; path = src/SimpleLogger.cc; sourceTree = "<group>"; };
+		5C4E453BF73EB767F31FDAB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C4E47E82FBDAFEB6CF92320 /* SimpleLogStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleLogStream.cpp; path = include/SimpleLogStream.cpp; sourceTree = "<group>"; };
+		5C4E48AA37B30D1E86B03784 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		5C4E48E0E6CE4AE1D0ED465B /* mytest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mytest.h; sourceTree = "<group>"; };
+		5C4E4994316E3FC559939EC3 /* SimpleLogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleLogger; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4E4B6B072108FC833AAFB8 /* Condition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Condition.h; path = include/Condition.h; sourceTree = "<group>"; };
+		5C4E4B6E3647A6E3215FD2D0 /* SimpleLogStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleLogStream.h; path = include/SimpleLogStream.h; sourceTree = "<group>"; };
+		5C4E4D623A254CB6F65D9A70 /* MutexLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutexLock.h; path = include/MutexLock.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C4E423407CFA3BC657DD27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C4E443372C56B48F48FF28D = {
+			isa = PBXGroup;
+			children = (
+				5C4E47B58C54A9D963A6D5ED /* Products */,
+				5C4E485F99D49B7FC5307D0C /* SimpleLogger */,
+			);
+			sourceTree = "<group>";
+		};
+		5C4E47B58C54A9D963A6D5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4E4994316E3FC559939EC3 /* SimpleLogger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C4E485F99D49B7FC5307D0C /* SimpleLogger */ = {
+			isa = PBXGroup;
+			children = (
+				5C4E453BF73EB767F31FDAB4 /* main.cpp */,
+				5C4E40E4694A7899F2EB9044 /* src */,
+				5C4E48AA37B30D1E86B03784 /* include */,
+				5C4E41ABDB451C27D9704E88 /* SimpleLogger.h */,
+				5C4E4064624239134914E667 /* SimpleBlockQueue.h */,
+				5C4E4D623A254CB6F65D9A70 /* MutexLock.h */,
+				5C4E4B6B072108FC833AAFB8 /* Condition.h */,
+				5C4E47E82FBDAFEB6CF92320 /* SimpleLogStream.cpp */,
+				5C4E4B6E3647A6E3215FD2D0 /* SimpleLogStream.h */,
+				5C4E4887780A1C988FB63BB5 /* tests */,
+				5C4E43CD34C213430735C2A2 /* SimpleLogger.cc */,
+			);
+			path = SimpleLogger;
+			sourceTree = "<group>";
+		};
+		5C4E4887780A1C988FB63BB5 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C4E48E0E6CE4AE1D0ED465B /* mytest.h */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C4E4459B50205B8B045B93D /* SimpleLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4E4D3D423B83B30694F464 /* Build configuration list for PBXNativeTarget "SimpleLogger" */;
+			buildPhases = (
+				5C4E44A2383A1BB52B0C733C /* Sources */,
+				5C4E423407CFA3BC657DD27E /* Frameworks */,
+				5C4E439B7CA96704CF7A6D4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLogger;
+			productName = SimpleLogger;
+			productReference = 5C4E4994316E3FC559939EC3 /* SimpleLogger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C4E4A0F83EF1DCC8C30B870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___YellowLemon___";
+			};
+			buildConfigurationList = 5C4E418297C8E470889C873F /* Build configuration list for PBXProject "SimpleLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C4E443372C56B48F48FF28D;
+			productRefGroup = 5C4E47B58C54A9D963A6D5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C4E4459B50205B8B045B93D /* SimpleLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C4E44A2383A1BB52B0C733C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4E47C0FB5F6F4A231C9F21 /* main.cpp in Sources */,
+				5C4E4835CBA5474B680E6A90 /* SimpleLogStream.cpp in Sources */,
+				5C4E4A9FB681D815CB7CDFE0 /* mytest.h in Sources */,
+				5C4E479BACF22AFE5286E714 /* SimpleLogger.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C4E4A17C2AE5596831F5F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C4E4AD26B965B38A4FA10E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C4E4D2990330C5B00EA0744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C4E4FD7F76BA85BDC405CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C4E418297C8E470889C873F /* Build configuration list for PBXProject "SimpleLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4E4AD26B965B38A4FA10E8 /* Debug */,
+				5C4E4FD7F76BA85BDC405CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4E4D3D423B83B30694F464 /* Build configuration list for PBXNativeTarget "SimpleLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4E4A17C2AE5596831F5F9B /* Debug */,
+				5C4E4D2990330C5B00EA0744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C4E4A0F83EF1DCC8C30B870 /* Project object */;
+}
